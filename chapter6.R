@@ -178,3 +178,17 @@ class(pizza$Details)
 class(pizza$Details[[1]])
 
 pizza$Details[[1]]
+n<-length(pizza$Details)
+
+for (i in 1:n) {
+  if (i == 1) {
+    details_df <- pizza$Details[[i]]
+  } else {
+    details_df <- rbind(details_df, pizza$Details[[i]])
+  }
+}
+
+details_df
+
+df <- cbind(pizza$Name, details_df)
+df
