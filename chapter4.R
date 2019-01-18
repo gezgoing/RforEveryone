@@ -1,3 +1,4 @@
+# RStusio Git Integration Test
 q <- c("Hockey", "Football", "Baseball", "Curling", "Rugby",
        "Lacrosse", "Basketball", "Tennis", "Cricket", "Soccer")
 nchar(q)
